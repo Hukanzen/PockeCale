@@ -1,0 +1,117 @@
+u22.Calender
+Field	Type	Null	Key	Default	Extra
+ID	int(11)	NO	PRI	NULL	auto_increment
+GroupID	int(11)	YES		NULL	
+Date	date	YES		NULL	
+Contents	text	YES		NULL	
+
+u22.Fri_ClassSchedule
+Field	Type	Null	Key	Default	Extra
+GroupID	int(11)	NO	PRI	NULL	auto_increment
+Class_1	int(11)	YES		NULL	
+Class_2	int(11)	YES		NULL	
+Class_3	int(11)	YES		NULL	
+Class_4	int(11)	YES		NULL	
+Class_5	int(11)	YES		NULL	
+Class_6	int(11)	YES		NULL	
+Class_7	int(11)	YES		NULL	
+Class_8	int(11)	YES		NULL	
+
+u22.Group
+Field	Type	Null	Key	Default	Extra
+GroupID	int(11)	NO	PRI	NULL	auto_increment
+School_Name	text	YES		NULL	
+Grade	int(11)	YES		NULL	
+Class	text	YES		NULL	
+NumMember	int(11)	YES		NULL	
+School_Type	varchar(255)	YES		NULL	
+
+u22.Mon_ClassSchedule
+Field	Type	Null	Key	Default	Extra
+GroupID	int(11)	NO	PRI	NULL	auto_increment
+Class_1	int(11)	YES		NULL	
+Class_2	int(11)	YES		NULL	
+Class_3	int(11)	YES		NULL	
+Class_4	int(11)	YES		NULL	
+Class_5	int(11)	YES		NULL	
+Class_6	int(11)	YES		NULL	
+Class_7	int(11)	YES		NULL	
+Class_8	int(11)	YES		NULL	
+
+u22.Planlist
+Field	Type	Null	Key	Default	Extra
+ID	int(11)	NO	PRI	NULL	auto_increment
+GroupID	int(11)	YES		NULL	
+Submit_Name	text	YES		NULL	
+Class_Name	text	YES		NULL	
+Dead_Line	date	YES		NULL	
+Dead_Time	time	YES		NULL	
+
+u22.Salt
+Field	Type	Null	Key	Default	Extra
+UserID	varchar(255)	NO	PRI	NULL	
+salt	int(11)	YES		NULL	
+
+u22.Subject
+Field	Type	Null	Key	Default	Extra
+ID	int(11)	NO	PRI	NULL	auto_increment
+GroupID	int(11)	YES		NULL	
+Name	text	YES		NULL	
+
+u22.Thu_ClassSchedule
+Field	Type	Null	Key	Default	Extra
+GroupID	int(11)	NO	PRI	NULL	auto_increment
+Class_1	int(11)	YES		NULL	
+Class_2	int(11)	YES		NULL	
+Class_3	int(11)	YES		NULL	
+Class_4	int(11)	YES		NULL	
+Class_5	int(11)	YES		NULL	
+Class_6	int(11)	YES		NULL	
+Class_7	int(11)	YES		NULL	
+Class_8	int(11)	YES		NULL	
+
+u22.TimeTable
+Field	Type	Null	Key	Default	Extra
+ID	int(11)	NO	PRI	NULL	auto_increment
+GroupID	int(11)	YES		NULL	
+o_Date	date	YES		NULL	
+o_Class_Time	int(11)	YES		NULL	
+o_Class_ID	int(11)	YES		NULL	
+ch_Content	int(11)	YES		NULL	
+ch_Class_ID	int(11)	YES		NULL	
+
+u22.Tue_ClassSchedule
+Field	Type	Null	Key	Default	Extra
+GroupID	int(11)	NO	PRI	NULL	auto_increment
+Class_1	int(11)	YES		NULL	
+Class_2	int(11)	YES		NULL	
+Class_3	int(11)	YES		NULL	
+Class_4	int(11)	YES		NULL	
+Class_5	int(11)	YES		NULL	
+Class_6	int(11)	YES		NULL	
+Class_7	int(11)	YES		NULL	
+Class_8	int(11)	YES		NULL	
+
+u22.User
+Field	Type	Null	Key	Default	Extra
+UserID	varchar(255)	NO	PRI	NULL	
+ePassword	varchar(255)	YES		NULL	
+FirstName	text	YES		NULL	
+LastName	text	YES		NULL	
+GroupID	int(11)	YES		NULL	
+Sex	int(11)	YES		NULL	
+Type	varchar(255)	YES		NULL	
+Created	timestamp	NO		CURRENT_TIMESTAMP	on update CURRENT_TIMESTAMP
+
+u22.Wed_ClassSchedule
+Field	Type	Null	Key	Default	Extra
+GroupID	int(11)	NO	PRI	NULL	auto_increment
+Class_1	int(11)	YES		NULL	
+Class_2	int(11)	YES		NULL	
+Class_3	int(11)	YES		NULL	
+Class_4	int(11)	YES		NULL	
+Class_5	int(11)	YES		NULL	
+Class_6	int(11)	YES		NULL	
+Class_7	int(11)	YES		NULL	
+Class_8	int(11)	YES		NULL	
+

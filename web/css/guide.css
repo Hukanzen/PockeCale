@@ -1,0 +1,12 @@
+.step {
+	padding: 0;
+	padding-left: 5px;
+	margin: 0 auto;
+	color: #3498db;
+	border-left: #2980b9 15px solid;
+	text-align: left;
+}
+
+a {
+	color: #3498db;
+}

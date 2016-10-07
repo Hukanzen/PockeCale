@@ -1,0 +1,77 @@
+*{
+	font-family: Helvetica , "游ゴシック" , "Yu Gothic" , 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', sans-serif;
+	font-size: 120%;
+	color: #ecf0f1;
+}
+
+body {
+	padding: 0;
+	margin: 44px auto 65px auto;
+	background-color: #001a43;
+	/*background-image: url("./pocket_cale1.png");*/
+	color: #ecf0f1;
+}
+
+#pocke {
+	color: #f74dad;
+}
+
+#cale {
+	color: #2999e4;
+}
+
+#main {
+	padding: 0;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+
+h1 {
+	color: #3498db;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+#undermenu {
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.underbar {
+	width: 100%;
+	height: 65px;
+	padding: 0;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.underbar li {
+	width: 33.3%;
+	height: 65px;
+	float: left;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.underbar li a {
+	width: auto;
+	height: 65px;
+	color: #ecf0f1;
+	font-size: 95%;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	display: block;
+	background: #666;
+}
